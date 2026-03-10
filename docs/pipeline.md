@@ -72,3 +72,17 @@
 - Riscos atuais:
 - Dependências críticas:
 - Melhorias recomendadas:
+
+
+## Anexos e Referências
+- Exemplo de pipeline (YAML/arquivo de configuração):
+- Evidências de execução (logs/screenshots):
+- Política de deploy/rollback relacionada:
+- Links de PRs/issues relacionados:
+
+## Checklist de Qualidade (pré-entrega)
+- [ ] Estágios e gatilhos do pipeline documentados.
+- [ ] Gates de qualidade e critérios de bloqueio definidos.
+- [ ] Estratégia de deploy e rollback detalhada.
+- [ ] Papéis de aprovação e governança descritos.
+- [ ] Premissas, lacunas e riscos preenchidos.
