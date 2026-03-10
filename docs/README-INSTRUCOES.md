@@ -8,6 +8,7 @@ Documentar o pipeline CI/CD da ShopEasy com foco em previsibilidade de entrega, 
 ## Documentação que deve ser produzida
 - Arquivo final: `docs/pipeline.md`
 - Referência de estrutura: `docs/pipeline-template.md`
+- Campo obrigatório no arquivo final: seção **Premissas, Lacunas e Riscos** preenchida.
 
 ## Regras da simulação
 - Esta atividade é uma simulação acadêmica.
