@@ -1,0 +1,30 @@
+name: shopeasy-ci-cd
+
+on:
+  push:
+    branches: ["main", "develop"]
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Build
+        run: echo "Executando build da aplicação"
+
+  tests:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Testes automatizados
+        run: echo "Executando testes unitários e integração"
+
+  deploy_homolog:
+    runs-on: ubuntu-latest
+    needs: tests
+    if: github.ref == 'refs/heads/develop'
+    steps:
+      - name: Deploy em homologação
+        run: echo "Publicação em homologação"
